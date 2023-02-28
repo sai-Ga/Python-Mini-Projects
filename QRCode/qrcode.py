@@ -2,7 +2,7 @@ import pyqrcode
 from pyzbar.pyzbar import decode
 from PIL import Image
 
-qr = pyqrcode.create("https://twitter.com/home")
+qr = pyqrcode.create("https://github.com/sai-Ga/Python-Mini-Projects/tree/main/QRCode")
 qr.png("qrcode.png", scale=8)
 
 
