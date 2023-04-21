@@ -86,7 +86,7 @@ while(option != 6):
         6.Exit
         '''))
     elif(option ==5):
-        print(percentage(a))
+        print(percentage(a,b))
         a = float(input('input first number'))
         b = float(input('input second number'))
 
