@@ -21,7 +21,7 @@ option = int(input( '''
 3.Multiply
 4.Divide
 5.Percentage
-5.Exit
+6.Exit
 '''))
 
 while(option != 6):
@@ -38,7 +38,7 @@ while(option != 6):
         3.Multiply
         4.Divide
         5.Percentage
-        5.Exit
+        6.Exit
         '''))
     elif(option==2):
         print(minus(a,b))
@@ -53,7 +53,7 @@ while(option != 6):
         3.Multiply
         4.Divide
         5.Percentage
-        5.Exit
+        6.Exit
         '''))
     elif(option==3):
         print(multiply(a,b))
@@ -68,7 +68,7 @@ while(option != 6):
         3.Multiply
         4.Divide
         5.Percentage
-        5.Exit
+        6.Exit
         '''))
     elif(option==4):
         print(divide(a,b))
@@ -83,7 +83,7 @@ while(option != 6):
         3.Multiply
         4.Divide
         5.Percentage
-        5.Exit
+        6.Exit
         '''))
     elif(option ==5):
         print(percentage(a))
@@ -98,5 +98,5 @@ while(option != 6):
         3.Multiply
         4.Divide
         5.Percentage
-        5.Exit
+        6.Exit
         '''))
